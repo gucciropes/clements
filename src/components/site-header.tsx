@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import Link from "next/link";
+
 
 export function SiteHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,31 +18,31 @@ export function SiteHeader() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
+            <Link href="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
               <div className="w-8 h-8 rounded-lg flex items-center justify-center">
                 <img src="/isotype.svg" alt="Clements United" className="w-full h-full" />
               </div>
               <span className="text-xl font-bold text-slate-900">Clements United</span>
-            </a>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="/about" className="text-slate-700 hover:text-[#AC0D2B] transition-colors font-medium">
+            <Link href="/about" className="text-slate-700 hover:text-[#AC0D2B] transition-colors font-medium">
               About
-            </a>
-            <a href="/services" className="text-slate-700 hover:text-[#AC0D2B] transition-colors font-medium">
+            </Link>
+            <Link href="/services" className="text-slate-700 hover:text-[#AC0D2B] transition-colors font-medium">
               Services
-            </a>
-            <a href="/#insights" className="text-slate-700 hover:text-[#AC0D2B] transition-colors font-medium">
+            </Link>
+            <Link href="/#insights" className="text-slate-700 hover:text-[#AC0D2B] transition-colors font-medium">
               Insights
-            </a>
-            <a href="/testimonials" className="text-slate-700 hover:text-[#AC0D2B] transition-colors font-medium">
+            </Link>
+            <Link href="/testimonials" className="text-slate-700 hover:text-[#AC0D2B] transition-colors font-medium">
               Testimonials
-            </a>
-            <a href="/contact" className="text-slate-700 hover:text-[#AC0D2B] transition-colors font-medium">
+            </Link>
+            <Link href="/contact" className="text-slate-700 hover:text-[#AC0D2B] transition-colors font-medium">
               Contact
-            </a>
+            </Link>
           </nav>
 
           {/* Desktop CTA Button */}
@@ -97,41 +98,41 @@ export function SiteHeader() {
         {isMenuOpen && (
           <div className="md:hidden border-t border-slate-200 bg-white">
             <nav className="py-4 space-y-4">
-              <a
+              <Link
                 href="/about"
                 className="block px-4 py-2 text-slate-700 hover:text-[#AC0D2B] hover:bg-slate-50 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/services"
                 className="block px-4 py-2 text-slate-700 hover:text-[#AC0D2B] hover:bg-slate-50 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Services
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/#insights"
                 className="block px-4 py-2 text-slate-700 hover:text-[#AC0D2B] hover:bg-slate-50 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Insights
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/testimonials"
                 className="block px-4 py-2 text-slate-700 hover:text-[#AC0D2B] hover:bg-slate-50 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Testimonials
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/contact"
                 className="block px-4 py-2 text-slate-700 hover:text-[#AC0D2B] hover:bg-slate-50 transition-colors font-medium"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
-              </a>
+              </Link>
               <div className="px-4 pt-4">
                 <Button className="w-full bg-[#AC0D2B] hover:bg-[#8A0A22] text-white">
                   Schedule a Call

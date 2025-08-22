@@ -1,7 +1,5 @@
-import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
 
 export default function ServicesPage() {
   return (
@@ -189,7 +187,7 @@ export default function ServicesPage() {
                   If you fall into either camp, what might you do to stay engaged and contributing once you are no longer a full-time executive? How can you leverage your knowledge and experience as you go forward? Athletes face these issues when they reach a certain point in their careers and so do executives. Sometimes the knees go before the will goes!
                 </p>
                 <p>
-                  Some players become role models and mentors for the next generation, some pass along a winning tradition and some use their experiences to keep the team competitive until younger hands are ready to take over. Role changes and less "playing time" have extended athletes' and executives careers and everyone has benefited.
+                  Some players become role models and mentors for the next generation, some pass along a winning tradition and some use their experiences to keep the team competitive until younger hands are ready to take over. Role changes and less &ldquo;playing time&rdquo; have extended athletes&apos; and executives careers and everyone has benefited.
                 </p>
               </div>
             </div>
@@ -209,7 +207,7 @@ export default function ServicesPage() {
                   It really is an opportunity for you to consider, and plan for, the future - as the traditional ideas regarding our productive years change, people such as you who have knowledge, skills, energy and a need to contribute will benefit from guidance to help you determine how, where, when and under what circumstances you will want to engage. Organizations and individuals will both benefit.
                 </p>
                 <p>
-                  Clements United has experience working with many executives who faced that decision and we will work with you to determine whether you are ready to move beyond the traditional "retire/do not retire" paradigm, and if so, what the game plan for the future looks like.
+                  Clements United has experience working with many executives who faced that decision and we will work with you to determine whether you are ready to move beyond the traditional &ldquo;retire/do not retire&rdquo; paradigm, and if so, what the game plan for the future looks like.
                 </p>
                 <p>
                   Some people have a very clear plan and a very clear path that they are following. This is a smaller group than you realize, but most people feel everyone around them has it sorted out. Some people discover that what they thought they wanted no longer resonates. Similar to most athletes, many of us need time to learn or experiences to help us to determine how we can contribute and where we wish to contribute.
@@ -238,13 +236,13 @@ export default function ServicesPage() {
                   There are times when we cannot get to the finish line due to circumstances beyond our control. Ask any competitor how it feels to lose their position with their team or who have suffered a career setback ranging from an injury to a temporary decline in performance and you will get similar answers. Many struggle as their sense of belonging, their sense of purpose, their very sense of self are all susceptible to the change. Yet, through determination, hard work and often a change in environment, they can get back on track.
                 </p>
                 <p>
-                  Just like athletes, some executives lose their positions solely because a new owner or leader wants to create a new squad. Maybe there has been a change in philosophy and your "game" suddenly no longer suits their needs. Sometimes people get distracted by life's events, or lose their energy or drive and like an athlete, a change of scenery can be beneficial.
+                  Just like athletes, some executives lose their positions solely because a new owner or leader wants to create a new squad. Maybe there has been a change in philosophy and your &ldquo;game&rdquo; suddenly no longer suits their needs. Sometimes people get distracted by life&apos;s events, or lose their energy or drive and like an athlete, a change of scenery can be beneficial.
                 </p>
                 <p>
-                  There are times when a person really does need to revitalize a career, just as athletes do. With Clements United our clients return to "training camp." They benefit from stepping back, taking stock and getting some honest feedback. It is an opportunity for a person to evaluate goals, to regroup, collect thoughts and gain perspective.
+                  There are times when a person really does need to revitalize a career, just as athletes do. With Clements United our clients return to &ldquo;training camp.&rdquo; They benefit from stepping back, taking stock and getting some honest feedback. It is an opportunity for a person to evaluate goals, to regroup, collect thoughts and gain perspective.
                 </p>
                 <p>
-                  Once ready to return to action, we work with our clients to develop a "race strategy" and coach them as they pursue their next opportunity. Getting to the finish line will involve hard work, some luck and disappointment but there will be personal growth, and we try to have some fun too.
+                  Once ready to return to action, we work with our clients to develop a &ldquo;race strategy&rdquo; and coach them as they pursue their next opportunity. Getting to the finish line will involve hard work, some luck and disappointment but there will be personal growth, and we try to have some fun too.
                 </p>
               </div>
             </div>
@@ -261,7 +259,7 @@ export default function ServicesPage() {
                 Our High-Touch Approach
               </h2>
               <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-                We can be that "swing coach." Sometimes the adjustments are minor while in other instances, changes are more fundamental.
+                We can be that &ldquo;swing coach.&rdquo; Sometimes the adjustments are minor while in other instances, changes are more fundamental.
               </p>
             </div>
             
@@ -270,7 +268,7 @@ export default function ServicesPage() {
                 There are times when a person needs to take a hard look at how they operate, what strengths and weaknesses they possess, whether or not what they set out to achieve remains the focus or whether they have other interests and goals that are at odds with what they have been doing. Sometimes broader life issues necessitate a re-evaluation.
               </p>
               <p>
-                Have you ever marveled at how a long-established professional golfer will go back to the drawing board, seek out a swing coach and change the swing that got them to the highest level of competition? There are many instances in professional sports where "what got you there, won't keep you there" and it is the same for executives.
+                Have you ever marveled at how a long-established professional golfer will go back to the drawing board, seek out a swing coach and change the swing that got them to the highest level of competition? There are many instances in professional sports where &ldquo;what got you there, won&apos;t keep you there&rdquo; and it is the same for executives.
               </p>
               <p>
                 In all instances the work begins with a thorough assessment, because establishing an understanding is crucial. As in sports, so it is in careers that people are interested in statistics. Research is something Lou Clements believes in and he has led the way in Canada as it pertains to executives in transition.
@@ -307,7 +305,7 @@ export default function ServicesPage() {
                 We offer high-touch, personalized programs to help individuals answer the important questions, to determine what it is you want to achieve, to evaluate what is realistic, how it can be approached, to feel comfortable with your choices, define how you can go about realizing the goals and support you in your efforts as you move forward.
               </p>
               <p>
-                We do not believe that seminars and webinars are the forums for something as personal as one's future, so we work one-on-one with you as opposed to grouping you with others who are in similar circumstances.
+                We do not believe that seminars and webinars are the forums for something as personal as one&apos;s future, so we work one-on-one with you as opposed to grouping you with others who are in similar circumstances.
               </p>
             </div>
           </div>
@@ -321,7 +319,7 @@ export default function ServicesPage() {
             Ready to Transform Your Career?
           </h2>
           <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-            Let's work together to identify your path forward and create a personalized strategy for your success.
+                            Let&apos;s work together to identify your path forward and create a personalized strategy for your success.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 

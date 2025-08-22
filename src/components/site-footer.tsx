@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function SiteFooter() {
   return (
     <footer className="bg-slate-800 text-white py-12">
@@ -13,18 +15,18 @@ export function SiteFooter() {
           <div>
             <h4 className="text-md font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm text-slate-300">
-              <li><a href="/services" className="hover:text-white transition-colors">Career Transition</a></li>
-              <li><a href="/services" className="hover:text-white transition-colors">Career Redefinition</a></li>
-              <li><a href="/services" className="hover:text-white transition-colors">Career Direction</a></li>
+              <li><Link href="/services" className="hover:text-white transition-colors">Career Transition</Link></li>
+              <li><Link href="/services" className="hover:text-white transition-colors">Career Redefinition</Link></li>
+              <li><Link href="/services" className="hover:text-white transition-colors">Career Direction</Link></li>
             </ul>
           </div>
           
           <div>
             <h4 className="text-md font-semibold mb-4">Resources</h4>
             <ul className="space-y-2 text-sm text-slate-300">
-              <li><a href="/#insights" className="hover:text-white transition-colors">Insights</a></li>
-              <li><a href="/testimonials" className="hover:text-white transition-colors">Testimonials</a></li>
-              <li><a href="/about" className="hover:text-white transition-colors">About Us</a></li>
+              <li><Link href="/#insights" className="hover:text-white transition-colors">Insights</Link></li>
+              <li><Link href="/testimonials" className="hover:text-white transition-colors">Testimonials</Link></li>
+              <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
             </ul>
           </div>
           
@@ -33,7 +35,7 @@ export function SiteFooter() {
             <ul className="space-y-2 text-sm text-slate-300">
               <li>lou@clementsunited.com</li>
               <li>416 388 6808</li>
-              <li><a href="/contact" className="hover:text-white transition-colors">Schedule a Call</a></li>
+              <li><Link href="/contact" className="hover:text-white transition-colors">Schedule a Call</Link></li>
             </ul>
           </div>
         </div>

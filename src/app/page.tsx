@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Separator } from "@/components/ui/separator";
+
 
 export default function Home() {
   return (
@@ -124,7 +124,7 @@ export default function Home() {
                   We believe that executive career transitions are not just about finding the next role, but about creating meaningful impact and personal fulfillment. Our approach combines deep industry knowledge with personalized coaching to help you navigate complex career decisions.
                 </p>
                 <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                  Every executive journey is unique, and we tailor our strategies to your specific goals, experience, and aspirations. We're committed to being your trusted partner throughout your career evolution.
+                  Every executive journey is unique, and we tailor our strategies to your specific goals, experience, and aspirations. We&apos;re committed to being your trusted partner throughout your career evolution.
                 </p>
                 <a href="/about">
                   <Button variant="outline" className="border-[#AC0D2B] text-[#AC0D2B] hover:bg-red-50 cursor-pointer">
@@ -266,7 +266,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-slate-700 italic">
-                  "The team's strategic approach helped me transition from a Fortune 500 CFO role to leading finance at an innovative startup. Their guidance was invaluable."
+                  &ldquo;The team&apos;s strategic approach helped me transition from a Fortune 500 CFO role to leading finance at an innovative startup. Their guidance was invaluable.&rdquo;
                 </p>
               </CardContent>
             </Card>
@@ -283,7 +283,7 @@ export default function Home() {
                   </div>
                 </div>
                 <p className="text-slate-700 italic">
-                  "They helped me redefine my career path and discover new opportunities I never considered. The personalized approach made all the difference."
+                  &ldquo;They helped me redefine my career path and discover new opportunities I never considered. The personalized approach made all the difference.&rdquo;
                 </p>
               </CardContent>
             </Card>
@@ -322,7 +322,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-slate-600 mb-4">
-                  Key strategies for executives looking to make strategic career moves in today's evolving business landscape.
+                  Key strategies for executives looking to make strategic career moves in today&apos;s evolving business landscape.
                 </CardDescription>
                 <Button variant="link" className="p-0 h-auto text-[#AC0D2B] hover:text-[#8A0A22]">
                   Read More →
@@ -377,7 +377,7 @@ export default function Home() {
               Ready to Transform Your Career?
             </h2>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-              Let's start a conversation about your executive career goals and how we can help you achieve them.
+                              Let&apos;s start a conversation about your executive career goals and how we can help you achieve them.
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-8">

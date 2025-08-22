@@ -12,14 +12,14 @@ export default function TestimonialsPage() {
       location: "Mississauga, ON"
     },
     {
-      quote: "Having participated in countless leadership programs over my career, I can categorically state that I have now seen the best - Clements United is the Premiership. My experience with Lou was nothing short of exceptional. Lou's high touch approach helped me to better understand and appreciate my strengths, as well as my areas of opportunity. His approach is straightforward and pragmatic, as is his program. As a coach, Lou was understanding and empathetic when he needed to be, and when appropriate, he jolted me into action. I often felt as if I was the sole beneficiary of all of his years of wisdom and experience. Another facet of Lou's program is the access that he offers to his impressive network. It seems that he knows EVERYONE. I believe that many of the introductions that he made for me will be very important to me for the balance of my career. As a result of the Clements United program, not only do I understand myself better now as a leader and a colleague, but also as a person.",
+      quote: "Having participated in countless leadership programs over my career, I can categorically state that I have now seen the best - Clements United is the Premiership. My experience with Lou was nothing short of exceptional. Lou&apos;s high touch approach helped me to better understand and appreciate my strengths, as well as my areas of opportunity. His approach is straightforward and pragmatic, as is his program. As a coach, Lou was understanding and empathetic when he needed to be, and when appropriate, he jolted me into action. I often felt as if I was the sole beneficiary of all of his years of wisdom and experience. Another facet of Lou&apos;s program is the access that he offers to his impressive network. It seems that he knows EVERYONE. I believe that many of the introductions that he made for me will be very important to me for the balance of my career. As a result of the Clements United program, not only do I understand myself better now as a leader and a colleague, but also as a person.",
       author: "Sean MacCormack",
       title: "CFO",
       company: "Home Hardware Stores Limited",
       location: "St. Jacobs, ON"
     },
     {
-      quote: "While in transition from Loblaw Companies, I insisted on having Lou as my counselor as I knew, better than anyone that his style and experience would work well in my own transition. Lou's guidance and support was such that I heard the number of interviews or networking meetings you have scheduled each week. Lou quickly knew what approach to take in order to motivate, challenge and support me in each situation I encountered. He was a master at bringing me back to focus on my goals when I was tempted by a new opportunity. Thanks to Lou, I learned so much about myself during my time in transition and all the while, he quietly facilitated this self discovery. From a personal perspective, I would look to Lou should I need his assistance in the future. From a Company perspective, I would be proud to know I provided people with the highest service level and transition experience possible.",
+      quote: "While in transition from Loblaw Companies, I insisted on having Lou as my counselor as I knew, better than anyone that his style and experience would work well in my own transition. Lou&apos;s guidance and support was such that I heard the number of interviews or networking meetings you have scheduled each week. Lou quickly knew what approach to take in order to motivate, challenge and support me in each situation I encountered. He was a master at bringing me back to focus on my goals when I was tempted by a new opportunity. Thanks to Lou, I learned so much about myself during my time in transition and all the while, he quietly facilitated this self discovery. From a personal perspective, I would look to Lou should I need his assistance in the future. From a Company perspective, I would be proud to know I provided people with the highest service level and transition experience possible.",
       author: "Kamy Scarlett",
       title: "Chief Human Resources Officer",
       company: "Best Buy",
@@ -54,28 +54,28 @@ export default function TestimonialsPage() {
       location: "Burlington, ON"
     },
     {
-      quote: "Lou has had a profoundly positive impact on my career and how I think about my own potential. The transition from operating leadership to professional services has been an eye-opening experience for me and one that I would not necessarily have explored without Lou's counsel and encouragement. He is a natural and talented coach and someone who truly cares. We are all lucky enough to meet partners like this in business and in life, but Lou is the real deal. I could not recommend him more highly.",
+      quote: "Lou has had a profoundly positive impact on my career and how I think about my own potential. The transition from operating leadership to professional services has been an eye-opening experience for me and one that I would not necessarily have explored without Lou&apos;s counsel and encouragement. He is a natural and talented coach and someone who truly cares. We are all lucky enough to meet partners like this in business and in life, but Lou is the real deal. I could not recommend him more highly.",
       author: "Joseph Lo",
       title: "Partner",
       company: "Sagard Private Equity Canada",
       location: "Toronto, ON"
     },
     {
-      quote: "Lou provides really great one-on-one support throughout the transition process. He works at your pace, but is good at pushing you when you need it. His process ensures you get the insights you need to find the right opportunity. I know my transition would not have turned out as well as it did without Lou's involvement.",
+      quote: "Lou provides really great one-on-one support throughout the transition process. He works at your pace, but is good at pushing you when you need it. His process ensures you get the insights you need to find the right opportunity. I know my transition would not have turned out as well as it did without Lou&apos;s involvement.",
       author: "Juanita Moore",
       title: "COO",
       company: "Food Banks Mississauga",
       location: "Mississauga, ON"
     },
     {
-      quote: "Lou has terrific instincts and knows how to be and when to be a consultant or a coach. As a consultant he can quickly assess, develop a mutually agreeable process and draw from a score of experience that will chart a course for success. As a coach he is a wonderful motivator and knows how to constructively critique which is what created the most value for me. In every executive's career there will be times when the path forward will be unclear, and when you will need Lou. Lou, like a compass, can point you in the right direction and bring clarity to your path forward. He is one of the finest consultants and coaches I have the pleasure to engage. I would recommend him to my friends.",
+      quote: "Lou has terrific instincts and knows how to be and when to be a consultant or a coach. As a consultant he can quickly assess, develop a mutually agreeable process and draw from a score of experience that will chart a course for success. As a coach he is a wonderful motivator and knows how to constructively critique which is what created the most value for me. In every executive&apos;s career there will be times when the path forward will be unclear, and when you will need Lou. Lou, like a compass, can point you in the right direction and bring clarity to your path forward. He is one of the finest consultants and coaches I have the pleasure to engage. I would recommend him to my friends.",
       author: "Chris Thatcher",
       title: "President and CEO",
       company: "Noxilizer, Inc.",
       location: "Baltimore, MD"
     },
     {
-      quote: "Lou is not only an excellent career coach, but he has also become a good friend. I found Lou's advice invaluable throughout the entire career coaching program. The tools and methods that he uses are created by him and are leading edge. I found myself discussing all aspects of my career and now I am related to my personal goals and what I wanted and needed for my future. I fully recommend Lou as a career advisor and I am proud to be a graduate of Clements United.",
+      quote: "Lou is not only an excellent career coach, but he has also become a good friend. I found Lou&apos;s advice invaluable throughout the entire career coaching program. The tools and methods that he uses are created by him and are leading edge. I found myself discussing all aspects of my career and now I am related to my personal goals and what I wanted and needed for my future. I fully recommend Lou as a career advisor and I am proud to be a graduate of Clements United.",
       author: "Renzo Di Carlo",
       title: "VP, Global Business Excellence",
       company: "Alexion Pharmaceuticals",
@@ -207,7 +207,7 @@ export default function TestimonialsPage() {
                     </svg>
                   </div>
                   <blockquote className="text-slate-700 leading-relaxed mb-6 italic">
-                    "{testimonial.quote}"
+                    &ldquo;{testimonial.quote}&rdquo;
                   </blockquote>
                   <Separator className="mb-4" />
                   <div className="text-sm">
@@ -232,7 +232,7 @@ export default function TestimonialsPage() {
             Ready to Transform Your Career?
           </h2>
           <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-            Join the many executives who have successfully navigated their career transitions with Lou's guidance.
+            Join the many executives who have successfully navigated their career transitions with Lou&apos;s guidance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 

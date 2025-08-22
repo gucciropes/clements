@@ -119,7 +119,7 @@ export default function AboutPage() {
                   <div className="bg-white p-6 rounded-xl shadow-sm border-l-4 border-[#AC0D2B]">
                     <h4 className="font-semibold text-slate-900 mb-3">Professional Journey</h4>
                     <ul className="space-y-2 text-sm">
-                      <li>• Joined Miller Dallas in March 2000 (Canada's career transition firm of choice for executives)</li>
+                      <li>• Joined Miller Dallas in March 2000 (Canada&apos;s career transition firm of choice for executives)</li>
                       <li>• Created Clements United in July 2010</li>
                       <li>• Led consumer and trade efforts of De Beers in Canada for seven years</li>
                       <li>• Experience in multinationals, public sector, consulting firms, and entrepreneurial family enterprise</li>
@@ -127,7 +127,7 @@ export default function AboutPage() {
                   </div>
                   
                   <p>
-                    He has lived in the US, Spain and England and brings an open mind and approach to his clients. His MBA thesis entitled, "The Impact of Terrorism on Multinationals" was an example of his ability to connect issues and bring thought-leadership to the fore.
+                    He has lived in the US, Spain and England and brings an open mind and approach to his clients. His MBA thesis entitled, &ldquo;The Impact of Terrorism on Multinationals&rdquo; was an example of his ability to connect issues and bring thought-leadership to the fore.
                   </p>
                   
                   <p>
@@ -188,10 +188,10 @@ export default function AboutPage() {
       <section className="py-20 bg-slate-900 text-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ready to Work with the Expert You'd Recommend?
+            Ready to Work with the Expert You&apos;d Recommend?
           </h2>
           <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
-            Lou's goal is to be the career management expert you would recommend to your best friend.
+            Lou&apos;s goal is to be the career management expert you would recommend to your best friend.
           </p>
           <div className="flex justify-center">
             <Button size="lg" className="bg-[#AC0D2B] hover:bg-[#8A0A22] text-white px-8 py-3 text-lg">

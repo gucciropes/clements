@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -157,7 +157,7 @@ export default function ContactPage() {
                 Send Us a Message
               </h2>
               <p className="text-lg text-slate-600">
-                Ready to transform your career? Let's start a conversation about how we can help you achieve your goals.
+                Ready to transform your career? Let&apos;s start a conversation about how we can help you achieve your goals.
               </p>
             </div>
 
@@ -267,7 +267,7 @@ export default function ContactPage() {
                   {submitStatus === "success" && (
                     <div className="p-4 bg-green-50 border border-green-200 rounded-md">
                       <p className="text-green-800 text-sm">
-                        Thank you! Your message has been sent successfully. We'll get back to you soon.
+                        Thank you! Your message has been sent successfully. We&apos;ll get back to you soon.
                       </p>
                     </div>
                   )}
@@ -353,7 +353,7 @@ export default function ContactPage() {
                   </div>
                   <h3 className="text-lg font-semibold text-slate-900 mb-2">Schedule a Call</h3>
                   <p className="text-slate-600 text-sm mb-4">
-                    Ready to discuss your career goals? Let's schedule a consultation call.
+                    Ready to discuss your career goals? Let&apos;s schedule a consultation call.
                   </p>
                   <Button 
                     variant="outline" 
