@@ -20,7 +20,7 @@ export function SiteHeader() {
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
               <div className="w-8 h-8 rounded-lg flex items-center justify-center">
-                <img src="/isotype.svg" alt="Clements United" className="w-full h-full" />
+                <img src="/Isotype.svg" alt="Clements United" className="w-full h-full" />
               </div>
               <span className="text-xl font-bold text-slate-900">Clements United</span>
             </Link>
