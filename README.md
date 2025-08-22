@@ -1,36 +1,116 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Clements Website
 
-## Getting Started
+A modern, responsive website built with Next.js, Tailwind CSS, and beautiful UI components.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Clean, professional layout with modern UI components
+- **Responsive**: Fully responsive design that works on all devices
+- **Fast Performance**: Built with Next.js for optimal performance
+- **Beautiful UI**: Styled with Tailwind CSS and custom components
+- **SEO Optimized**: Proper meta tags and semantic HTML structure
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14
+- **Styling**: Tailwind CSS
+- **UI Components**: Custom component library with shadcn/ui inspiration
+- **Language**: TypeScript
+- **Deployment**: Ready for Vercel, Netlify, or GitHub Pages
+
+## 📁 Project Structure
+
+```
+clements/
+├── components/          # Reusable UI components
+│   ├── sections/       # Page-specific sections
+│   └── ui/            # Base UI components
+├── src/
+│   ├── app/           # Next.js app router pages
+│   ├── components/    # Additional components
+│   └── lib/          # Utility functions
+├── public/            # Static assets
+└── tailwind.config.ts # Tailwind configuration
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 18+ 
+- npm or yarn
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+```bash
+git clone https://github.com/gucciropes/clements.git
+cd clements
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Run the development server:
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📱 Pages
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Home**: Main landing page with hero section and key information
+- **About**: Information about Lou and the company
+- **Services**: Available services offered
+- **Testimonials**: Customer reviews and feedback
+- **Contact**: Contact form and information
+
+## 🎨 Customization
+
+The website uses a component-based architecture, making it easy to:
+- Modify colors and styling in `tailwind.config.ts`
+- Update content in the respective page components
+- Add new sections or pages
+- Customize the design system
+
+## 📦 Build & Deploy
+
+### Build for Production
+```bash
+npm run build
+```
+
+### Start Production Server
+```bash
+npm start
+```
+
+### Deploy
+This project is ready to deploy on:
+- **Vercel** (recommended for Next.js)
+- **Netlify**
+- **GitHub Pages**
+- Any static hosting service
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 📞 Support
+
+For support or questions, please open an issue on GitHub or contact the development team.
+
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
